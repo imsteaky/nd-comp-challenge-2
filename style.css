@@ -88,7 +88,7 @@ li:hover {
 .title-text {
   display: flex;
   font-family: "Crimson Text", serif;
-  font-size: 4rem;
+  font-size: 3rem;
   width: 95%;
 }
 
@@ -324,7 +324,7 @@ h5, .gender{
   }
   .title-text{
     font-size: 3.3rem;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     z-index: 2;
     /* margin-right: 30px; */
   }
@@ -340,4 +340,12 @@ h5, .gender{
     font-size: .8rem;
   }
 
+.title-text{
+  margin-right: 0;
+}
+.title-text{
+  font-size: 2.9rem;
+  /* margin-bottom: 5px; */
+  margin-bottom: 1rem;
+}
 }
