@@ -4,13 +4,12 @@ Static Comp 2 Challenge for Turing
 Static Comp challenge in mod1, chose to recreate the MaxFund dog shelter's, dog adoption page
 https://user-images.githubusercontent.com/34214595/40636997-9d12272c-62bf-11e8-8664-063fd358c76b.png
 
-We were told to recreate it in the style of this static image, seen below.
+Wewre instructed to create the following layout as a part of the chellenge
 
 <img src="http://frontend.turing.io/assets/images/static-comp-challenge-2.jpg">
 
 
-using CSS grid and a bit of hopes and dreams, I whipped together a rather nice card 
-layout for Maxfund. my hopes are to work on this a bit more after evals and give it to Maxfund to use.
+using CSS grid I recreated the layout for Maxfund. 
 
 <img width="1440" alt="maxfund 1" src="https://user-images.githubusercontent.com/34214595/40636931-356fa7de-62bf-11e8-9cc5-2ad954249748.png">
 <img width="1440" alt="maxfund2" src="https://user-images.githubusercontent.com/34214595/40636935-36dcf1f8-62bf-11e8-9bec-43ddb9e1333b.png">
