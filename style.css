@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #eff0f0;
+  color: #2e2e2e;
+  height: 100%;
+}
+
+/* ----------------------HEADER---------------------- */
+
+.page-header {
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #eff0f0;
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.fa-user-circle{
+  font-size: 1.5rem
+}
+.admin {
+  align-content: center;
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-end;
+  width: 98%;
+}
+
+.fas {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+header i {
+  color: #2c94cc;
+  margin-right: 5px;
+}
+
+.hamburger {
+  font-size: 2rem;
+  position: relative;
+  z-index: -1;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  height: 15%;
+  justify-content: space-between;
+  width: 98%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  color: #8c8c8c;
+  cursor: pointer;
+  font-size: 1.3rem;
+  list-style-type: none;
+  margin-left: 2rem;
+  transition: 500ms ease-in-out;
+}
+
+li:hover {
+  color: #eff0f0;
+  border-bottom: .5px solid #eff0f0;
+}
+
+.nav-list .white-text {
+  color: #fdfdfd;
+}
+
+.title-text {
+  display: flex;
+  font-family: "Crimson Text", serif;
+  font-size: 4rem;
+  width: 95%;
+}
+
+.subtitle-text {
+  bottom: 50px;
+  letter-spacing: 9px;
+  padding: none;
+  position: relative;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+/* ----------------------START GRID---------------------- */
+
+.grid-container {
+  margin: 0 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 30px 18px;
+}
+.container {
+  display: grid;
+  height: 100%;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "crash mutt maserati everest"
+    "lawton jasmine plum eeyore";
+  padding: 0 4px;
+}
+
+/* ------------------DOG CARDS GENERAL---------------- */
+
+.card {
+  background-color: #fff;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.58);
+  display: flex;
+  flex-direction: column;
+  height: 30em;
+}
+
+.dog-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top{
+  height: 10em;
+}
+
+/* -----------------Top Half of Card---------------- */
+.age-field {
+  align-items: center;
+  color: #eff0f0;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin: 10px;
+  position: relative;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.age-field h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.age-field h3{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.super-paw {
+  color: #eff0f0;
+  font-size: 3rem;
+  padding: 1rem 0 2rem 1rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+}
+
+/* -----------------Bottom Half---------------- */
+
+.card-content h3{
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 1rem 0 0 1rem;
+}
+
+.card-content .date-arrived{
+  color: #8c8c8c;
+  font-size: .8rem;
+  font-weight: 300;
+  margin: 0 0 1rem 1rem;
+}
+
+.card-content .personality-information{
+  background-color:#efefef;
+  margin: 0 1rem;
+}
+
+.card-content h5{
+  margin: 1rem 0 0 1rem;
+}
+
+.activities {
+  margin-left: 1rem;
+  font-weight: 300;
+}
+
+h5, .gender{
+  margin-left: 1rem;
+  font-size: .8rem;
+}
+
+.additional {
+  font-size: .8rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  padding-top: 5px;
+}
+
+.num-of-photos {
+  color: #57c4ff;
+  font-weight: 200;
+  margin-top: -15px;
+  margin-left: .5rem;
+  padding-top: 0;
+  padding: 5px;
+
+}
+/* ------------------DOG CARDS / INDIVIDUAL---------------- */
+
+.crash {
+  grid-area: crash;
+  background: url("img/crash.jpg");
+}
+
+.mutt {
+  grid-area: mutt;
+  background: url("img/mutt.jpg")
+}
+
+.maserati {
+  grid-area: maserati;
+  background: url("img/maserati.jpg")
+}
+
+.everst {
+  grid-area: everst;
+  background: url("img/everst.jpg")
+}
+
+.lawton {
+  grid-area: lawton;
+  background: url("img/lawton.jpg")
+}
+
+.jasmine {
+  grid-area: jasmine;
+  background: url("img/jasmine.jpg")
+}
+.plum {
+  grid-area: plum;
+  background: url("img/plum.jpg")
+}
+.eeyore{
+  grid-area: eeyore;
+  background: url("img/eeyore.jpg")
+}
+
+.card-background {
+  background-size: cover;
+  background-repeat: top left no-repeat;
+  background-position: center center;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  flex: 1;
+}
+
+/* ------------------MEDIA QUERIES---------------- */
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    grid-template-areas:
+      "crash mutt maserati"
+      "everst lawton jasmine"
+      "plum eeyore content9";
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    grid-template-areas:
+      "crash mutt"
+      "maserati everst"
+      "lawton jasmine"
+      "plum eeyore";
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .nav-list{
+    display: block;
+    margin-bottom: 50px;
+  }
+  .nav-list i{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    grid-template-areas:
+      "crash"
+      "mutt"
+      "maserati"
+      "everst"
+      "lawton"
+      "jasmine"
+      "plum"
+      "eeyore";
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hamburger {
+    z-index:2;
+    position: relative;
+  }
+  .nav-list { 
+    display: none;
+  }
+  .title-text{
+    font-size: 3.3rem;
+    margin-bottom: 5px;
+    z-index: 2;
+    /* margin-right: 30px; */
+  }
+
+  .subtitle-text{
+    /* margin-right: 30px; */
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .personality-information{
+    font-size: .8rem;
+  }
+
+}
