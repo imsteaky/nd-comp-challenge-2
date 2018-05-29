@@ -139,6 +139,12 @@ h1 {
 
 .card-top{
   height: 10em;
+  filter: brightness(70%);
+  transition: 500ms ease-in-out;
+}
+
+.card-top:hover{
+  filter: brightness(100%);
 }
 
 /* -----------------Top Half of Card---------------- */
