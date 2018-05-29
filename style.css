@@ -93,7 +93,7 @@ li:hover {
 }
 
 .subtitle-text {
-  bottom: 50px;
+  bottom: 40px;
   letter-spacing: 9px;
   padding: none;
   position: relative;
@@ -220,6 +220,10 @@ h5, .gender{
   padding: 5px;
 
 }
+.personality-information p{
+  padding: 5px;
+  margin: -5px 0 -5px 0;
+}
 /* ------------------DOG CARDS / INDIVIDUAL---------------- */
 
 .crash {
@@ -325,14 +329,9 @@ h5, .gender{
   }
   .title-text{
     font-size: 3.3rem;
-    /* margin-bottom: 5px; */
     z-index: 2;
-    /* margin-right: 30px; */
   }
 
-  .subtitle-text{
-    /* margin-right: 30px; */
-  }
 }
 
 
@@ -345,12 +344,13 @@ h5, .gender{
   margin-right: 0;
 }
 .title-text{
-  font-size: 2.4rem;
-  /* margin-bottom: 5px; */
   margin-bottom: 1rem;
+  text-align: left;
 }
 .subtitle-text {
 font-size: .4rem;
+text-align: left;
+margin-left: 20px;
 }
 .volunteer {
   margin-right: 30px;
