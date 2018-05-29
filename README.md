@@ -4,12 +4,12 @@ Static Comp 2 Challenge for Turing
 Static Comp challenge in mod1, chose to recreate the MaxFund dog shelter's, dog adoption page
 https://user-images.githubusercontent.com/34214595/40636997-9d12272c-62bf-11e8-8664-063fd358c76b.png
 
-Wewre instructed to create the following layout as a part of the chellenge
+We were instructed to create the following layout.
 
 <img src="http://frontend.turing.io/assets/images/static-comp-challenge-2.jpg">
 
 
-using CSS grid I recreated the layout for Maxfund. 
+using CSS grid I recreated the following, fully responsive, layout for Maxfund. 
 
 <img width="1440" alt="maxfund 1" src="https://user-images.githubusercontent.com/34214595/40636931-356fa7de-62bf-11e8-9cc5-2ad954249748.png">
 <img width="1440" alt="maxfund2" src="https://user-images.githubusercontent.com/34214595/40636935-36dcf1f8-62bf-11e8-9bec-43ddb9e1333b.png">
