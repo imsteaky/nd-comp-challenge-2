@@ -282,6 +282,11 @@ h5, .gender{
       "everst lawton jasmine"
       "plum eeyore content9";
   }
+  .subtitle-text {
+    font-size: .4rem;
+    text-align: left;
+    margin-left: 20px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -292,6 +297,7 @@ h5, .gender{
       "lawton jasmine"
       "plum eeyore";
   }
+  
 }
 
 @media only screen and (max-width: 850px) {
@@ -302,6 +308,7 @@ h5, .gender{
   .nav-list i{
     display: none;
   }
+  
 }
 
 @media only screen and (max-width: 800px) {
@@ -316,6 +323,7 @@ h5, .gender{
       "plum"
       "eeyore";
   }
+  
 }
 
 @media only screen and (max-width: 550px) {
@@ -347,11 +355,7 @@ h5, .gender{
   margin-bottom: 1rem;
   text-align: left;
 }
-.subtitle-text {
-font-size: .4rem;
-text-align: left;
-margin-left: 20px;
-}
+
 .volunteer {
   margin-right: 30px;
 }
