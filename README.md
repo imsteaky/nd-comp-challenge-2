@@ -1,8 +1,8 @@
 # nd-comp-challenge-2
 Static Comp 2 Challenge for Turing
 
-For my second Static Comp challenge in mod1, I decided to recreate the MaxFund dog shelter's, dog adoption page(seen below)
-<img width="1440" alt="screen shot 2018-05-28 at 9 38 44 pm" src="https://user-images.githubusercontent.com/34214595/40636997-9d12272c-62bf-11e8-8664-063fd358c76b.png">
+Static Comp challenge in mod1, chose to recreate the MaxFund dog shelter's, dog adoption page
+https://user-images.githubusercontent.com/34214595/40636997-9d12272c-62bf-11e8-8664-063fd358c76b.png
 
 We were told to recreate it in the style of this static image, seen below.
 
